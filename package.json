@@ -1,0 +1,15 @@
+{
+  "name": "inm420saa_web-page_daisy-ye",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "keywords": [],
+  "author": "Daisy Ye",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
