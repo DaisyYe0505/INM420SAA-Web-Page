@@ -13,12 +13,24 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- JavaScript -->
+  <script defer src="./assets/js/main.js"></script>
 </head>
+
+
 <body>
 
   <!-- Header -->
   <header class="site-header">
     <nav class="nav">
+
+    <div class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
     <div class="logo">
         <img src="/assets/images/grid.svg" alt="Grid logo icon">
         <span>Grid</span>
@@ -38,49 +50,77 @@
     </nav>
   </header>
 
-  <!-- Main -->
-  <main>
-
     <!-- Hero -->
     <section class="hero">
+
+        <div class="hero-bg">
+          <img src="/assets/images/bg-1.svg" alt="">
+          <img src="/assets/images/bg-2.svg" alt="">
+        </div>
+
       <div class="hero-content">
 
         <div class="hero-text">
           <h1>Combine <span class="highlight">fine</span> images</h1>
           <h2>To represent a product</h2>
 
-          <p class="hero-description">
-            Use mixed grid with imagery, replace with your own photos and descriptions.
-          </p>
-        </div>
-
         <div class="hero-grid">
-          <div class="hero-card large">
-            <img src="" alt="">
-            <p>Consider it done!</p>
+          <div class="hero-card">
+            <img src="/assets/images/1.svg" alt="">
+            <h2>Consider it done!</h2>
           </div>
 
           <div class="hero-card">
-            <img src="" alt="">
+            <img src="/assets/images/2.svg" alt="">
+
+            <div class="card-text">
+              <p class="card-title">We aimed to deliver HQ templates for Figma</p>
+              <p class="card-meta">Used by 123 people</p>
+            </div>
+            
           </div>
 
           <div class="hero-card">
-            <img src="" alt="">
+            <img src="/assets/images/3.svg" alt="">
           </div>
 
           <div class="hero-card">
-            <img src="" alt="">
+            <img src="/assets/images/4.svg" alt="">
           </div>
 
           <div class="hero-card">
-            <img src="" alt="">
+            <img src="/assets/images/5.svg" alt="">
           </div>
+
+          <div class="hero-card">
+            <img src="/assets/images/6.svg" alt="">
+            <h1>See my goal?</h1>
+          </div>
+
+          <div class="hero-card">
+            <img src="/assets/images/7.svg" alt="">
+          </div>
+
+          <div class="hero-card hero-text-card">
+            <p>Use mixed grid with imagery, replace with your own photos and descriptions</p>
+          </div>
+
+          <div class="hero-card hero-text-card hero-text-card--secondary">
+            <p>This is multipurpose grid, it fits for portfolio, services or agency web site</p>
+          </div>
+
+            <div class="hero-cta">
+              <a href="#" class="hero-btn">Learn more</a>
+            </div>
+
+          
         </div>
+
 
       </div>
     </section>
 
-    <!-- Delivery -->
+    <!-- Features -->
     <section class="features">
       <div class="section-header">
         <h2>Delivering good designs since 1954 🚚💨</h2>
@@ -92,111 +132,89 @@
 
       <div class="feature-grid">
         <div class="feature-card">
-          <div class="feature-icon">📞</div>
+
+          <div class="feature-icon">
+            <img src="./assets/images/icon-1.svg" alt="">
+          </div>
+
           <h3>Support</h3>
-          <p>Delivering faster and more personalized support.</p>
+          <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
           <a href="#">Learn more</a>
         </div>
 
         <div class="feature-card">
-          <div class="feature-icon">📈</div>
+
+          <div class="feature-icon">
+            <img src="./assets/images/icon-2.svg" alt="">
+          </div>
+
           <h3>Sales growth</h3>
-          <p>Identify qualified customers with live chat and AI-based bots.</p>
+          <p>Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
           <a href="#">Learn more</a>
         </div>
 
         <div class="feature-card">
-          <div class="feature-icon">⚡</div>
+
+          <div class="feature-icon">
+            <img src="./assets/images/icon-3.svg" alt="">
+          </div>
+
           <h3>Components-driven</h3>
-          <p>Delivering faster with shared screens and design systems.</p>
+          <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
           <a href="#">Learn more</a>
         </div>
 
         <div class="feature-card">
-          <div class="feature-icon">🔁</div>
+
+          <div class="feature-icon">
+            <img src="./assets/images/icon-4.svg" alt="">
+          </div>
+
           <h3>Swap the icon</h3>
-          <p>Toggle icons within instances and customize styles.</p>
+          <p>You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
           <a href="#">Learn more</a>
         </div>
       </div>
     </section>
 
-    <!-- Pricing -->
-    <section class="pricing">
-      <div class="section-header">
-        <h2>Affordable pricing</h2>
-        <p>Bill me <strong>monthly</strong> · yearly</p>
-      </div>
-
-      <div class="pricing-grid">
-
-        <div class="pricing-card">
-          <h3>Free</h3>
-          <p class="price">Free / forever</p>
-          <ul>
-            <li>Components-driven system</li>
-            <li>Sales-boosting landing pages</li>
-            <li>Awesome Feather icons pack</li>
-          </ul>
-          <button class="btn">Try for free</button>
-        </div>
-
-        <div class="pricing-card featured">
-          <h3>Individual</h3>
-          <p class="price">$24 / month</p>
-          <ul>
-            <li>Components-driven system</li>
-            <li>Sales-boosting landing pages</li>
-            <li>Awesome Feather icons pack</li>
-            <li>Themed into 3 different styles</li>
-            <li>Will help to learn Figma</li>
-          </ul>
-          <button class="btn btn-primary">Regular license</button>
-        </div>
-
-        <div class="pricing-card">
-          <h3>Corporate</h3>
-          <p class="price">$12 / editor</p>
-          <ul>
-            <li>Components-driven system</li>
-            <li>Sales-boosting landing pages</li>
-            <li>Awesome Feather icons pack</li>
-            <li>Themed into 3 different styles</li>
-          </ul>
-          <button class="btn">Extended license</button>
-        </div>
-
-      </div>
-    </section>
-
-  </main>
 
   <!-- Footer -->
   <footer class="site-footer">
     <div class="footer-top">
 
       <div class="footer-column">
-        <h4>Follow us</h4>
+        <h4>FOLLOW US</h4>
         <ul class="social-links">
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">LinkedIn</a></li>
-          <li><a href="#">Twitter</a></li>
+          <li><img src="./assets/images/facebook.svg" alt=""></li>
+          <li><img src="./assets/images/linkedin.svg" alt=""></li>
+          <li><img src="./assets/images/slack.svg" alt=""></li>
+          <li><img src="./assets/images/twitter.svg" alt=""></li>
         </ul>
       </div>
 
       <div class="footer-column">
-        <h4>Information</h4>
-        <ul>
+        <h4>FOLLOW US</h4>
+        <p>hello@fasterapp.com</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>INFORMATION</h4>
+        <ul class="information-links">
           <li><a href="#">About Faster app</a></li>
           <li><a href="#">Get in Touch</a></li>
           <li><a href="#">Things We Like</a></li>
+          <li><a href="#">Onhovered / Active</a></li>
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">We are hiring!</a></li>
+          <li><a href="#">Resources</a></li>
+
+         
         </ul>
       </div>
 
       <div class="footer-column">
-        <h4>Keep in touch</h4>
+        <h4>KEEP IN TOUCH</h4>
         <form class="footer-form">
           <input type="text" placeholder="Your name">
           <input type="email" placeholder="E-mail">
@@ -207,9 +225,8 @@
 
     </div>
 
-    <div class="footer-bottom">
-      <p>© 2026 Faster App. All rights reserved.</p>
-    </div>
+    <img class="wave" src="./assets/images/Wave.svg" alt="">
+
   </footer>
 
 </body>
